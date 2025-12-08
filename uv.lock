@@ -133,7 +133,7 @@ wheels = [
 [[package]]
 name = "test-path-with-spaces"
 version = "0.1.0"
-source = { virtual = "path with spaces/project" }
+source = { editable = "path with spaces/project" }
 dependencies = [
     { name = "requests" },
 ]
